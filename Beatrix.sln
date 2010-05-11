@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NSIS_Installer", "src\NSIS_Installer\NSIS_Installer.vcproj", "{9BE2F106-E985-4E4F-88B0-3960A267B48B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Beatrix", "src\Beatrix\Beatrix.vcproj", "{47E9D86D-68FD-433B-B3CC-C133438D0B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE2F106-E985-4E4F-88B0-3960A267B48B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BE2F106-E985-4E4F-88B0-3960A267B48B}.Debug|Win32.Build.0 = Debug|Win32
+		{9BE2F106-E985-4E4F-88B0-3960A267B48B}.Release|Win32.ActiveCfg = Release|Win32
+		{9BE2F106-E985-4E4F-88B0-3960A267B48B}.Release|Win32.Build.0 = Release|Win32
+		{47E9D86D-68FD-433B-B3CC-C133438D0B0F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47E9D86D-68FD-433B-B3CC-C133438D0B0F}.Debug|Win32.Build.0 = Debug|Win32
+		{47E9D86D-68FD-433B-B3CC-C133438D0B0F}.Release|Win32.ActiveCfg = Release|Win32
+		{47E9D86D-68FD-433B-B3CC-C133438D0B0F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+HKEY_CLASSES_ROOT
+{	
+	NoRemove CLSID
+	{
+		ForceRemove {5CF73A22-10D4-4535-AD6C-DB35E71CE09F} = s 'Beatrix Breadcrumb Toolbar'
+		{
+			ProgID = s 'Beatrix.Toolbar.1'
+			VersionIndependentProgID = s 'Beatrix.Toolbar'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}
+
+HKEY_LOCAL_MACHINE
+{
+	Software
+	{
+		Microsoft
+		{
+			'Internet Explorer'
+			{
+				Toolbar
+				{
+					val {5CF73A22-10D4-4535-AD6C-DB35E71CE09F} = s 'Beatrix Breadcrumbs'
+				}
+			}
+		}
+	}
+}
+

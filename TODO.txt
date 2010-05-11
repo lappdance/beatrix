@@ -1,0 +1,14 @@
+vector.resize(max(otherVector.size(), MAX_PATH)). max!! not min.
+
+2) alt-d to take keyboard focus
+3) draw folder icon in dropdown menus
+4) allow wheel scrolling in dropdown menus
+6) installer
+	//06 May: mostly done. needs to be made pretty.
+7) external hdd not shown in "my computer" dropdown
+	//regular folders appear when they are created
+
+//07 May
+explain why DllUnregisterServer returns an error, but removes key anyway
+	atl tries to unregister the type library, but there is not one because I have
+	not written one, because I don't need one?
